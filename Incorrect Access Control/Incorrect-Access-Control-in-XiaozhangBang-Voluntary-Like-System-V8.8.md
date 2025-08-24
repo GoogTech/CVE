@@ -2,7 +2,7 @@
 
 ## Summary
 An **Incorrect Access Control** vulnerability has been identified in **XiaozhangBang Voluntary Like System V8.8**.  
-The application fails to properly enforce server-side access control checks on critical parameters during the voting payment process. Specifically, the `zhekou` (discount) parameter can be modified by the client without validation, allowing unauthorized discounts and manipulation of the vote-purchasing mechanism. Additionally, an attacker can modify the `zid` parameter to affect other users' purchases, amplifying the impact.
+The application fails to properly enforce server-side access control checks on critical parameters during the voting payment process. Specifically, the `zhekou` (discount) parameter can be modified by the client without validation, allowing unauthorized discounts and manipulation of the vote-purchasing mechanism. Additionally, an attacker can manipulate the zid parameter to influence purchases made by other users, further amplifying the impact.
 
 ## Affected Product
 - **Vendor:** XiaozhangBang  
