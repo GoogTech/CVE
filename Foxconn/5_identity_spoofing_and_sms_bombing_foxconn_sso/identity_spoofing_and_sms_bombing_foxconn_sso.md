@@ -339,7 +339,7 @@ The above program execution result outputs that the last 4 digits of the victim'
 
 ![](./11_28_07_30.png)
 
-After obtaining the correct last 4 digits (**1957**) of the victim's (`F1245311`) phone number, assign it to the parameter `SmsPhoneL4` in the following request body. It is found that **every very short period of time **, the following API request can be successfully called, successfully sending an SMS to the victim's phone.
+After obtaining the correct last 4 digits (**1957**) of the victim's (`F1245311`) phone number, assign it to the parameter `SmsPhoneL4` in the following request body. It is found that **every very short period of time**, the following API request can be successfully called, successfully sending an SMS to the victim's phone.
 
 ```http
 POST /Civet/LoginStandard/checkPhone HTTP/1.1
@@ -399,19 +399,11 @@ Content-Length: 23
 
 
 ## Timeline
-- **2025-11-20:**
+- **2025-11-20:** Vulnerability identified and initial proof-of-concept (PoC) verified.
 
-  Vulnerability identified and initial proof-of-concept (PoC) verified.
+- **2025-11-28:** Detailed vulnerability report submitted to the vendor for remediation. No acknowledgment or remediation confirmation received as of 2026-01-14.
 
-- **2025-11-28:**
-
-  Detailed vulnerability report submitted to the vendor for remediation.
-
-  No acknowledgment or remediation confirmation received as of 2026-01-14.
-
-- **2026-01-14:**
-
-  Decision made to proceed with public disclosure following the expiration of a reasonable grace period.
+- **2026-01-14:** Decision made to proceed with public disclosure following the expiration of a reasonable grace period.
 
 
 
